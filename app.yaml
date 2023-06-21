@@ -1,0 +1,5 @@
+runtime: nodejs
+runtime_config:
+    operating_system: "ubuntu22"
+    runtime_version: "20"
+service_account: [SERVICE_ACCOUNT_NAME]@[PROJECT_ID].iam.gserviceaccount.com
