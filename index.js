@@ -38,7 +38,7 @@ app.use('/api/v1/geofence', require('./routes/geofencing'));
 app.use('/api/v1/commentanalyze', require('./routes/commentanalyzer'));
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
